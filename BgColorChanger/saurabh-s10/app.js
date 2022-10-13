@@ -3,6 +3,6 @@ const bge = document.querySelector('section');
 
 button.addEventListener('click',() => {
     let col = "#";
-    col+=Math.random().toString(16).slice(2,8);
+    col+=Math.random().toString(16).slice(2);
     bge.style.backgroundColor = col;
 })
