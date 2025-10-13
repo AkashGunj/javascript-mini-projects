@@ -38,7 +38,9 @@
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.16</version>
 	</dependency>
-  	
+  	<properties>
+ 	 <sonar.organization>pranoti110</sonar.organization>
+	</properties>
   
   	<dependency>
   		<groupId>javax.servlet</groupId>
